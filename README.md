@@ -4,6 +4,10 @@
 
 JSON App Notation defines structural format for app and its components. There are largely three parts in it, element, style and action.
 
+iOS | Android
+--- | ---
+![ios screenshot](screenshot-ios.png) | ![android screenshot](screenshot-android.png)
+
 ## Data Format
 
 JSON App Notation parser parse data with following format.
@@ -23,10 +27,10 @@ All element has following format.
 
 ```
 {
-  type: ElementType,
-  data: {
-    elementId: String,
-    class: [String]
+  "type": ElementType,
+  "data": {
+    "elementId": String,
+    "class": [String]
   }
 }
 ```
@@ -50,11 +54,11 @@ Represent label.
 
 ```
 {
-  type: label,
-  data: {
-    elementId: String,
-    class: [String],
-    text: String
+  "type": label,
+  "data": {
+    "elementId": String,
+    "class": [String],
+    "text": String
   }
 }
 ```
@@ -65,11 +69,11 @@ Represent image.
 
 ```
 {
-  type: image,
-  data: {
-    elementId: String,
-    class: [String],
-    source: URL
+  "type": image,
+  "data": {
+    "elementId": String,
+    "class": [String],
+    "source": URL
   }
 }
 ```
@@ -80,11 +84,11 @@ Represent text button.
 
 ```
 {
-  type: textButton,
-  data: {
-    elementId: String,
-    class: [String],
-    text: String
+  "type": textButton,
+  "data": {
+    "elementId": String,
+    "class": [String],
+    "text": String
   }
 }
 ```
@@ -95,11 +99,11 @@ Represent image button.
 
 ```
 {
-  type: imageButton,
-  data: {
-    elementId: String,
-    class: [String],
-    source: URL
+  "type": imageButton,
+  "data": {
+    "elementId": String,
+    "class": [String],
+    "source": URL
   }
 }
 ```
@@ -110,11 +114,11 @@ Represent container.
 
 ```
 {
-  type: container,
-  data: {
-    elementId: String,
-    class: [String],
-    elements: [Element]
+  "type": container,
+  "data": {
+    "elementId": String,
+    "class": [String],
+    "elements": [Element]
   }
 }
 ```
@@ -125,11 +129,11 @@ Represent text title bar.
 
 ```
 {
-  type: textTitleBar,
-  data: {
-    elementId: String,
-    class: [String],
-    text: String
+  "type": textTitleBar,
+  "data": {
+    "elementId": String,
+    "class": [String],
+    "text": String
   }
 }
 ```
@@ -140,11 +144,11 @@ Represent image title bar.
 
 ```
 {
-  type: imageTitleBar,
-  data: {
-    elementId: String,
-    class: [String],
-    image: ImageElement
+  "type": imageTitleBar,
+  "data": {
+    "elementId": String,
+    "class": [String],
+    "image": ImageElement
   }
 }
 ```
@@ -155,11 +159,11 @@ Represent image title bar.
 
 ```
 {
-  type: imageTitleBar,
-  data: {
-    elementId: String,
-    class: [String],
-    image: ImageElement
+  "type": imageTitleBar,
+  "data": {
+    "elementId": String,
+    "class": [String],
+    "image": ImageElement
   }
 }
 ```
@@ -170,12 +174,12 @@ Represent screen.
 
 ```
 {
-  type: screen,
-  data: {
-    elementId: String,
-    class: [String],
-    title: TitleElement,
-    body: ContainerElement
+  "type": screen,
+  "data": {
+    "elementId": String,
+    "class": [String],
+    "title": TitleElement,
+    "body": ContainerElement
   }
 }
 ```
@@ -186,12 +190,12 @@ Represent navigation.
 
 ```
 {
-  type: navigation,
-  data: {
-    elementId: String,
-    class: [String],
-    initialScreenId: String,
-    screens: [Screen]
+  "type": navigation,
+  "data": {
+    "elementId": String,
+    "class": [String],
+    "initialScreenId": String,
+    "screens": [Screen]
   }
 }
 ```
