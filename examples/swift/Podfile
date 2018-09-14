@@ -1,0 +1,7 @@
+platform :ios, '11.0'
+use_frameworks!
+
+target 'json-app-notation' do
+  pod 'SnapKit'
+  pod 'AlamofireImage'
+end
