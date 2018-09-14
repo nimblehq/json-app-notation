@@ -1,0 +1,282 @@
+{
+  "structure": {
+    "type": "navigation",
+    "data": {
+      "elementId": "app",
+      "initialScreenId": "screen_3",
+      "screens": [
+        {
+          "type": "screen",
+          "data": {
+            "elementId": "screen_1",
+            "title": {
+              "type": "imageTitleBar",
+              "data": {
+                "elementId": "titleBar",
+                "image": {
+                  "type": "image",
+                  "data": {
+                    "elementId": "title_image",
+                    "source": "https://123123123123123"
+                  }
+                }
+              }
+            },
+            "body": {
+              "type": "container",
+              "data": {
+                "elementId": "container_1",
+                "elements": [
+                  {
+                    "type": "textButton",
+                    "data": {
+                      "elementId": "button_1",
+                      "text": "Button 1"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "data": {
+                      "elementId": "image_1",
+                      "source": "https://google.com"
+                    }
+                  },
+                  {
+                    "type": "container",
+                    "data": {
+                      "elementId": "container_1_1",
+                      "elements": [
+                        {
+                          "type": "textButton",
+                          "data": {
+                            "elementId": "button_1_1",
+                            "text": "Button 1_1"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "screen",
+          "data": {
+            "elementId": "screen_2",
+            "title": {
+              "type": "imageTitleBar",
+              "data": {
+                "elementId": "titleBar",
+                "image": {
+                  "type": "image",
+                  "data": {
+                    "elementId": "title_image",
+                    "source": "http://google.com"
+                  }
+                }
+              }
+            },
+            "body": {
+              "type": "container",
+              "data": {
+                "elementId": "container_2",
+                "elements": [
+                  {
+                    "type": "textButton",
+                    "data": {
+                      "elementId": "button_2",
+                      "text": "Button 2"
+                    }
+                  },
+                  {
+                    "type": "textButton",
+                    "data": {
+                      "elementId": "button_2",
+                      "text": "Button Hello 2"
+                    }
+                  },
+                  {
+                    "type": "textButton",
+                    "data": {
+                      "elementId": "button_2",
+                      "text": "Click me"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "data": {
+                      "elementId": "image_2",
+                      "source": "https://images.unsplash.com/photo-1534955811692-7ff56da8be7c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ac2c626fe6d1bb2d31aea0a46a9e673c&auto=format&fit=crop&w=700&q=80"
+                    }
+                  },
+                  {
+                    "type": "container",
+                    "data": {
+                      "elementId": "container_2_1",
+                      "elements": [
+                        {
+                          "type": "textButton",
+                          "data": {
+                            "elementId": "button_2_1",
+                            "text": "Button 2_1"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "screen",
+          "data": {
+            "elementId": "screen_3",
+            "title": {
+              "type": "textTitleBar",
+              "data": {
+                "elementId": "titleBar",
+                "text": "HELLLLLLOOOOoooooooooo"
+              }
+            },
+            "body": {
+              "type": "container",
+              "data": {
+                "elementId": "container_1",
+                "elements": [
+                  {
+                    "type": "textButton",
+                    "data": {
+                      "elementId": "button_1",
+                      "text": "Button 1 Plus Button another"
+                    }
+                  },
+                  {
+                    "type": "textButton",
+                    "data": {
+                      "elementId": "button_1",
+                      "text": "Button 1 Plus Button"
+                    }
+                  },
+                  {
+                    "type": "label",
+                    "data": {
+                      "elementId": "button_1",
+                      "text": "Thailand Label 123123123123"
+                    }
+                  },
+                  {
+                    "type": "label",
+                    "data": {
+                      "elementId": "button_1",
+                      "text": "Bangkok"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "data": {
+                      "elementId": "image_1",
+                      "source": "https://nimbl3.com/assets/image/bg-contactus.jpg"
+                    }
+                  },
+                  {
+                    "type": "container",
+                    "data": {
+                      "elementId": "container_2",
+                      "elements": [
+                        {
+                          "type": "textButton",
+                          "data": {
+                            "elementId": "button_2",
+                            "text": "Go to screen 2",
+                            "action": {
+                              "type": "push",
+                              "destination": "screen_2"
+                            }
+                          }
+                        },
+                        {
+                          "type": "imageButton",
+                          "data": {
+                            "elementId": "button_2",
+                            "source": "https://png.icons8.com/metro/2x/tweezers.png"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "styles": [
+    {
+      "targetClass": "instayLabel",
+      "targetElement": "label",
+      "data": {
+        "numberOfLines": 2,
+        "textColor": "#FF0000",
+        "textSize": 17,
+        "marginTop": 8,
+        "marginLeft": 8,
+        "marginRight": 8,
+        "marginBottom": 8
+      }
+    },
+    {
+      "targetClass": "instayTextButton",
+      "targetElement": "textButton",
+      "data": {
+        "textColor": "#FF0000",
+        "textSize": 17,
+        "marginTop": 8,
+        "marginLeft": 8,
+        "marginRight": 8,
+        "marginBottom": 8
+      }
+    },
+    {
+      "targetClass": "instayImage",
+      "targetElement": "image",
+      "data": {
+        "width": 1280,
+        "height": 720,
+        "fillingMode": "centerCrop",
+        "marginTop": 16,
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginBottom": 16
+      }
+    },
+    {
+      "targetClass": "instayImageButton",
+      "targetElement": "imageButton",
+      "data": {
+        "width": 1280,
+        "height": 720,
+        "fillingMode": "centerCrop",
+        "marginTop": 16,
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginBottom": 16
+      }
+    },
+    {
+      "targetClass": "instayContainer",
+      "targetElement": "container",
+      "data": {
+        "marginTop": 16,
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginBottom": 16
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "type": "navigation",
+  "data": {
+    "elementId": "app",
+    "initialScreenId": "screen_1",
+    "screens": [
+      {
+        "type": "screen",
+        "data": {
+          "elementId": "screen_1",
+          "body": {
+            "type": "container",
+            "data": {
+              "elementId": "container_1",
+              "elements": [
+                {
+                  "type": "label",
+                  "data": {
+                    "elementId": "label_999",
+                    "text": "TEST CSS"
+                  }
+                },
+                {
+                  "type": "image",
+                  "data": {
+                    "elementId": "image_hotel",
+                    "source": "https://q-ak.bstatic.com/images/hotel/max1280x900/444/44476135.jpg"
+                  }
+                },
+                {
+                  "type": "textButton",
+                  "data": {
+                    "elementId": "button_chat_with_front_desk",
+                    "text": "CHAT WITH FRONT DESK"
+                  }
+                },
+                {
+                  "type": "textButton",
+                  "data": {
+                    "elementId": "button_local_attractions",
+                    "text": "LOCAL ATTRACTIONS"
+                  }
+                },
+                {
+                  "type": "textButton",
+                  "data": {
+                    "elementId": "button_directions_to_hotel",
+                    "text": "DIRECTIONS TO HOTEL"
+                  }
+                },
+                {
+                  "type": "label",
+                  "data": {
+                    "elementId": "label_red_planet_title",
+                    "text": "WELCOME TO REDPLANET BANGKOK ASOKE"
+                  }
+                },
+                {
+                  "type": "textButton",
+                  "data": {
+                    "elementId": "button_ride_to_hotel",
+                    "text": "RIDE TO HOTEL"
+                  }
+                },
+                {
+                  "type": "textButton",
+                  "data": {
+                    "elementId": "button_taxi_card",
+                    "text": "TAXI CARD"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}
