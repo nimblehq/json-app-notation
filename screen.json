@@ -1,0 +1,70 @@
+{
+  "type": "screen",
+  "data": {
+    "elementId": "inStayScreen",
+    "title": {
+      "type": "textTitleBar",
+      "data": {
+        "elementId": "redPlanetLogo",
+        "text": "Red Planet"
+      }
+    },
+    "body": {
+      "type": "container",
+      "data": {
+        "elementId": "mainView",
+        "elements": [
+          {
+            "type": "image",
+            "data": {
+              "elementId": "hotelTitleImage",
+              "source": "https://q-ak.bstatic.com/images/hotel/max1280x900/444/44476135.jpg"
+            }
+          },
+          {
+            "type": "label",
+            "data": {
+              "elementId": "welcomeToRedPlanet",
+              "text": "WELCOME TO REDPLANET BANGKOK ASOKE"
+            }
+          },
+          {
+            "type": "textButton",
+            "data": {
+              "elementId": "chatWithFrontDesk",
+              "text": "CHAT WITH FRONT DESK"
+            }
+          },
+          {
+            "type": "textButton",
+            "data": {
+              "elementId": "localAttractions",
+              "text": "LOCAL ATTRACTIONS"
+            }
+          },
+          {
+            "type": "textButton",
+            "data": {
+              "elementId": "directionsToHotel",
+              "text": "DIRECTIONS TO HOTEL"
+            }
+          },
+          {
+            "type": "textButton",
+            "data": {
+              "elementId": "rideToHotel",
+              "text": "RIDE TO HOTEL"
+            }
+          },
+          {
+            "type": "textButton",
+            "data": {
+              "elementId": "taxiCard",
+              "text": "TAXI CARD"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
